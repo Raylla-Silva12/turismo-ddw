@@ -8,9 +8,11 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Work Sans', sans-serif;
 }
+
+body#contatos { overflow: hidden; }
 
 main#contato {
     padding: 5vh;
@@ -62,12 +64,6 @@ input[type=submit]:hover, input[type=reset]:hover {
 
 .row { max-width: 100vw; }
 
-#text {
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-top: -60px;
-}
-
 .carousel-inner {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -114,6 +110,18 @@ input[type=submit]:hover, input[type=reset]:hover {
     border: 1px dashed rgba(0, 0, 0, 0.37);
 }
 
+.panel-simples:hover {
+    border: 1px dashed #40a6ff;
+}
+
+.panel-master:hover {
+    border: 1px dashed #2cff37;
+}
+
+.panel-gold:hover {
+    border: 1px dashed #ff2525;
+}
+
 .panel-heading {
     font-family: 'Dancing Script', cursive;
     font-size: x-large;
@@ -136,6 +144,12 @@ input[type=submit]:hover, input[type=reset]:hover {
     background-color: #ff252531;
 }
 
+#main-pacote {
+    margin-top: 100px;
+}
+
+
+
 /* Text */
 
 .text-muted {
@@ -151,3 +165,16 @@ input[type=submit]:hover, input[type=reset]:hover {
     border-bottom: 1px solid rgba(0, 0, 0, 0.39);
 }
 
+h6 {
+    margin: 15px 0px 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.h6 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-height: auto;
+    max-width: 250px;
+}
